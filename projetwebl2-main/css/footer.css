@@ -1,0 +1,41 @@
+
+footer{
+    /*height: 10vh;*/
+    width: 100%;
+    background-color: #1C2C4A;
+    color:white;
+    padding: 0;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer_sub{
+    display: flex ;
+    flex-direction: column;
+    height: 100%;
+    font-size: 14px;
+    margin: 20px 0 20px 0;
+}
+
+.footer_sub a{
+    margin: 0px;
+}
+
+.footer_sub a:hover{
+    text-decoration: solid;
+    color: #d08686;
+}
+
+
+/****/
+.chevron_icon{
+    margin-right: 4px; 
+    margin-left: 7px;
+    width: 15px;
+    height: 15px;
+    background-color: transparent; 
+  }

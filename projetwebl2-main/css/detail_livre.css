@@ -1,0 +1,28 @@
+.info_livre{
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap;
+    font-size: 16px;
+}
+
+.info_livre img{
+    width:30%; 
+    height:auto; 
+    margin: 10px 10px 15px 10px;
+}
+
+.info_livre div p{
+    margin: 4px;
+}
+
+.info_livre div{
+    display:flex; 
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+.descr_livre{
+    font-size: 16px;
+    text-align: justify ; 
+    margin: 5px 10px 5px 10px;
+}

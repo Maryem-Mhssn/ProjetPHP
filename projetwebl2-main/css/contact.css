@@ -1,0 +1,95 @@
+
+/******************************************
+* CONTACT FORM
+*******************************************/
+
+#contact_form div{
+    align-items: flex-start;
+    padding: 10px;
+    display: flex; 
+    flex-direction:column;
+}
+
+#contact_form input{
+    border: none;
+    outline: none;
+}
+
+#contact_form input:hover{
+    background-color: #f0ebeb;
+    border: none;
+    outline: none;
+}
+
+.info_p1{
+    max-width: 100%;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+
+.info_p1 label, .panel_content_bis label{
+    width: 49px;
+    margin: 0 5px 0 5px;
+
+    font-size: 16px;
+}
+
+.info_p1 input{
+    min-width: 95%;
+    max-width: 95%;
+    height: 28px;
+    /*max-width: max-content;*/
+    border-style: none;
+    border-bottom-style: solid ;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(226, 226, 226);
+  
+    margin: 5px;
+}
+
+.info_p1 input:focus
+{
+    outline: none;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(33, 43, 134);
+}
+
+.panel_content_bis textarea:focus{
+    outline: none;
+    border-bottom-width: 1px;
+    border-color: rgb(33, 43, 134);  
+}
+
+.info_p1 label.error, .info_p1 input.error, .info_p1 p.error{
+    border:none;
+    border-bottom-style: solid;
+    border-bottom-color: red;
+    border-bottom-width: 1px;
+    background-color: rgba(255,0,0,0.1);
+    margin: 0 0 2px 0;
+}
+
+textarea{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 20vh;
+
+    margin-bottom: 5px;
+
+    border-radius: 11px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #B8B8B8;
+}
+
+
+.error_msg{
+    margin: 3px 2px 3px 2px;
+    color: red;
+    font-size: 13px;
+}
